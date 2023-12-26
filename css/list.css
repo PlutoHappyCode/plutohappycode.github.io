@@ -1,0 +1,151 @@
+.nav {
+  overflow: hidden;
+}
+
+.sk {
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  border-left: 1px solid #c81523;
+  padding-left: 10px;
+}
+
+.nav .sk_list {
+  float: left;
+}
+
+.nav .sk_list ul li {
+  float: left;
+}
+
+.nav .sk_list ul li a {
+  display: block;
+  padding: 0 30px;
+  height: 47px;
+  line-height: 47px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nav .sk_list ul li a:hover {
+  color: #c81523;
+}
+
+.nav .sk_con {
+  float: left;
+}
+
+.nav .sk_con ul li {
+  float: left;
+}
+
+.nav .sk_con ul li a {
+  display: block;
+  padding: 0 20px;
+  height: 47px;
+  line-height: 49px;
+  font-size: 14px;
+}
+
+.nav .sk_con ul :nth-last-child(1) a::after {
+  content: '\e910';
+  font-family: 'icomoon';
+  margin-left: 6px;
+}
+
+
+.sk_container .sk_bd ul li {
+  overflow: hidden;
+  float: left;
+  margin-right: 13px;
+  width: 290px;
+  height: 460px;
+  border: 1px solid transparent;
+}
+
+.sk_container .sk_bd ul li a {
+  display: block;
+  width: 290px;
+  height: 295px;
+}
+
+.sk_container .sk_bd ul li a img {
+  width: 100%;
+  height: 100%;
+}
+
+.sk_container .sk_bd ul li p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+
+.sk_container .sk_bd ul li .price {
+  height: 20px;
+  margin: 5px 0 5px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sk_container .sk_bd ul li .price .sk_price {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.sk_container .sk_bd ul li .price .old_price {
+  text-decoration: line-through;
+  color: #afacac;
+}
+
+.sk_container .sk_bd ul li .process {
+  margin-top: 20px;
+  width: 290px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.sk_container .sk_bd ul li .process>div {
+  float: left;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sk_container .sk_bd ul li .process .jindu {
+  width: 132px;
+  height: 14px;
+  margin: 3px 10px 0;
+  border: 1px solid #c81523;
+  border-radius: 7px;
+}
+
+.sk_container .sk_bd ul li .process .jindu .jindu_left {
+  width: 87%;
+  height: 12px;
+  background-color: #c81523;
+  border-radius: 7px 0 0 7px;
+}
+
+.bigger {
+  font-size: 16px;
+}
+
+.sk_container .sk_bd ul li button {
+  width: 290px;
+  height: 50px;
+  background-color: #c81523;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.sk_container .sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sk_container .sk_bd ul li:hover {
+  border: 1px solid #c81523;
+}
